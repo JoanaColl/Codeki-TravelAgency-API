@@ -21,7 +21,7 @@ public class CompanyController {
     }
 
 
-    // ------------------  METHODS  ------------------
+    // -------------  CRUD METHODS  -------------
     @PostMapping("/company/create")
     public ResponseEntity<Company> createCompany(@RequestBody Company company) {
         return new ResponseEntity<>(companyService.createCompany(company),HttpStatus.CREATED);
@@ -29,22 +29,22 @@ public class CompanyController {
 
     @GetMapping("/company")
     public ResponseEntity<List<Company>> findAllCompanies() {
-        return new ResponseEntity<List<Company>>(companyService.findAllCompanies(), HttpStatus.OK);
+        return new ResponseEntity<>(companyService.findAllCompanies(), HttpStatus.OK);
     }
 
     @GetMapping("/company/{id}")
     public ResponseEntity<Company> findCompanyById(@PathVariable("id") Long id) {
-        return new ResponseEntity<Company>(companyService.findCompanyById(id), HttpStatus.OK);
+        return new ResponseEntity<>(companyService.findCompanyById(id), HttpStatus.OK);
     }
 
     @PutMapping("/company/update")
     public ResponseEntity<Company> updateCompany(@RequestParam("id") Long id, @RequestBody Company company) {
-        return new ResponseEntity<Company>(companyService.updateCompany(id, company), HttpStatus.OK);
+        return new ResponseEntity<>(companyService.updateCompany(id, company), HttpStatus.OK);
     }
 
     @DeleteMapping("/company/delete/{id}")
     public ResponseEntity<String> deleteCompanyById(@PathVariable("id") Long id) {
         companyService.deleteCompanyById(id);
-        return new ResponseEntity<String>("Company deleted!", HttpStatus.OK);
+        return new ResponseEntity<>("Company deleted!", HttpStatus.OK);
     }
 }
