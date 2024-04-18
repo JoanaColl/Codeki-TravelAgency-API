@@ -38,7 +38,7 @@
         <li><a href="#findAllCompanies">findAllCompanies</a></li>
         <li><a href="#findCompanyById">findCompanyById</a></li>
         <li><a href="#updateCompany">updateCompany</a></li>
-        <li><a href="#deleteCompany">deleteCompany</a></li>
+        <li><a href="#deleteCompanyById">deleteCompanyById</a></li>
       </ul>
     </li>
     <li><a href="#desarrollado">Desarrollado por...</a>
