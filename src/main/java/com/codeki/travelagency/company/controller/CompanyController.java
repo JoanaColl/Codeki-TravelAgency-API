@@ -32,18 +32,18 @@ public class CompanyController {
         return new ResponseEntity<>(companyService.findAllCompanies(), HttpStatus.OK);
     }
 
-    @GetMapping("/company/{id}")
-    public ResponseEntity<Company> findCompanyById(@PathVariable("id") Long id) {
+    @GetMapping("/company/{companyId}")
+    public ResponseEntity<Company> findCompanyById(@PathVariable("companyId") Long id) {
         return new ResponseEntity<>(companyService.findCompanyById(id), HttpStatus.OK);
     }
 
-    @PutMapping("/company/update")
-    public ResponseEntity<Company> updateCompany(@RequestParam("id") Long id, @RequestBody Company company) {
+    @PutMapping("/company/update/{companyId}")
+    public ResponseEntity<Company> updateCompany(@PathVariable("companyId") Long id, @RequestBody Company company) {
         return new ResponseEntity<>(companyService.updateCompany(id, company), HttpStatus.OK);
     }
 
-    @DeleteMapping("/company/delete/{id}")
-    public ResponseEntity<String> deleteCompanyById(@PathVariable("id") Long id) {
+    @DeleteMapping("/company/delete/{companyId}")
+    public ResponseEntity<String> deleteCompanyById(@PathVariable("companyId") Long id) {
         companyService.deleteCompanyById(id);
         return new ResponseEntity<>("Company deleted!", HttpStatus.OK);
     }
