@@ -66,7 +66,7 @@
       <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=Swagger&logoColor=white">
     </a>
    </p>
-  <p align="right">(<a href="#ir-arriba">Ir arriba</a>)</p>
+  <p align="right"><a href="#ir-arriba">:arrow_up:</a></p>
 
 <!-- INSTALACIÓN -->
   <a name="instalacion"></a>
@@ -83,7 +83,7 @@
   4. Crea la base de datos `Travelagency` y ejecuta la app.
 
   5. Para probar los endpoint es recomendable utilizar Postman
-  <p align="right">(<a href="#ir-arriba">Ir arriba</a>)</p>
+  <p align="right"><a href="#ir-arriba">:arrow_up:</a></p>
   
 <!-- FUNCIONALIDAD DE LA APP -->
   <a name="funcionalidad"></a>
@@ -109,7 +109,7 @@
       <li>/travelagency/v1/company/update/{companyId}</li>
       <li>/travelagency/v1/company/delete/{companyId}</li>
     </ul>
-  <p align="right">(<a href="#ir-arriba">Ir arriba</a>)</p>
+  <p align="right"><a href="#ir-arriba">:arrow_up:</a></p>
 
 ## Flight
 ### createFlight
@@ -132,7 +132,7 @@
     }
 }
 ```
- <p align="right">(<a href="#ir-arriba">Ir arriba</a>)</p>
+ <p align="right"><a href="#ir-arriba">:arrow_up:</a></p>
 
 ### findAllFlights
   `/travelagency/v1/flight` muestra todos los vuelos 
@@ -171,7 +171,7 @@
     }
 ]
 ```
- <p align="right">(<a href="#ir-arriba">Ir arriba</a>)</p>
+ <p align="right"><a href="#ir-arriba">:arrow_up:</a></p>
 
 ### findFlightById
   `/travelagency/v1/flight/{flightId}` muestra un determinado vuelo por id mediante un _PathVarible_
@@ -193,7 +193,7 @@
         }
       }
 ```
-  <p align="right">(<a href="#ir-arriba">Ir arriba</a>)</p>
+  <p align="right"><a href="#ir-arriba">:arrow_up:</a></p>
   
 ### updateFlight
   `/travelagency/v1/flight/update/{flightId}` edita un vuelo mediante un _RequestBody_ enviando el id por _PathVariable_ y la compañia aerea por _RequestParam_ 
@@ -215,7 +215,7 @@
     }
 }
 ```
-  <p align="right">(<a href="#ir-arriba">Ir arriba</a>)</p>
+  <p align="right"><a href="#ir-arriba">:arrow_up:</a></p>
   
 ### deleteFlight
   `/travelagency/v1/flight/delete/{flightId}` borra un determinada vuelo por id mediante un _PathVariable_
@@ -227,15 +227,15 @@ Flight deleted!
 
 ### getFlightOffers
   `/travelagency/v1/flight/offers` muestra ofertas de vuelo que hay disponibles
-  <p align="right">(<a href="#ir-arriba">Ir arriba</a>)</p>
+  <p align="right"><a href="#ir-arriba">:arrow_up:</a></p>
   
 ### findFlightByOrigin
   `/travelagency/v1/flight/origin` muestra los vuelos por su origen
-  <p align="right">(<a href="#ir-arriba">Ir arriba</a>)</p>
+  <p align="right"><a href="#ir-arriba">:arrow_up:</a></p>
   
 ### findFlightByOriginAndDestiny
   `/travelagency/v1/flight/originAndDestiny` muestra los vuelos por su origen y destino
-  <p align="right">(<a href="#ir-arriba">Ir arriba</a>)</p>
+  <p align="right"><a href="#ir-arriba">:arrow_up:</a></p>
 
 ## Company
 ### createCompany
@@ -249,7 +249,7 @@ Flight deleted!
     "banner": "Banner Air France"
 }
 ```
-  <p align="right">(<a href="#ir-arriba">Ir arriba</a>)</p>
+  <p align="right"><a href="#ir-arriba">:arrow_up:</a></p>
 
 ### findAllCompanies
   `/travelagency/v1/company` muestra todas las compañías aéreas
@@ -282,7 +282,7 @@ Flight deleted!
     }
 ]
 ```
-  <p align="right">(<a href="#ir-arriba">Ir arriba</a>)</p>
+  <p align="right"><a href="#ir-arriba">:arrow_up:</a></p>
 
 ### findCompanyById
   `/travelagency/v1/company/{companyId}` muestra una determinada compañía aérea por id mediante un _PathVarible_
@@ -295,7 +295,7 @@ Flight deleted!
     "banner": "Banner Aerolineas Argentinas"
 }
 ```
-  <p align="right">(<a href="#ir-arriba">Ir arriba</a>)</p>
+  <p align="right"><a href="#ir-arriba">:arrow_up:</a></p>
 
 ### updateCompany
   `/travelagency/v1/company/update/{companyId}` edita una compañía aérea mediante un _RequestBody_ enviando el id por _PathVariable_
@@ -309,7 +309,7 @@ Flight deleted!
 }
 ```
  
-  <p align="right">(<a href="#ir-arriba">Ir arriba</a>)</p>
+  <p align="right"><a href="#ir-arriba">:arrow_up:</a></p>
 
 ### deleteCompanyById
   `/travelagency/v1/company/delete/{companyId}` borra una determinada compañía aérea por id mediante un _PathVariable_
@@ -317,26 +317,23 @@ Flight deleted!
    ```json
 Company deleted!
 ```
-  <p align="right">(<a href="#ir-arriba">Ir arriba</a>)</p>
+  <p align="right"><a href="#ir-arriba">:arrow_up:</a></p>
   
 <!-- DESARROLLADO POR -->
   <a name="desarrollado"></a>
   ## 💁 Desarrollado por...
-  * **Joana Coll** - [joana-coll](https://github.com/joana-coll)
+  * **Joana Coll** - [joanacoll](https://github.com/joanacoll)
   
-  <p align="right">(<a href="#ir-arriba">Ir arriba</a>)</p>
+  <p align="right"><a href="#ir-arriba">:arrow_up:</a></p>
   
 <!-- CONTACTO -->
   <a name="contacto"></a>
   ## 📩 Contacto
   Si deseas contactarte conmigo:
-  <a href="https://ar.linkedin.com/in/joana-coll" target="_blank">
-  <img src="https://raw.githubusercontent.com/joana-coll/joana-coll/1ce466f12c925e1e39ab93b44ff985f102c9aed8/icons/linkedin.svg" alt="Github" height="30" />
-  </a>
   <a href="mailto:colljoana@gmail.com" target="_blank">
-  <img src="https://raw.githubusercontent.com/joana-coll/joana-coll/1ce466f12c925e1e39ab93b44ff985f102c9aed8/icons/envelope-solid.svg" alt="Github" height="30" />
-  </a>
-  <p align="right">(<a href="#ir-arriba">Ir arriba</a>)</p>
+  <img src="https://img.shields.io/badge/colljoana-red?style=flat&logo=Gmail&logoColor=white&labelColor=red" alt="Gmail"></a>
+  <a href="https://ar.linkedin.com/in/joanacoll" target="_blank"><img src="https://img.shields.io/badge/joanacoll-blue?style=flat&logo=Linkedin&logoColor=white&labelColor=blue" alt="Linkedin"></a>
+  <p align="right"><a href="#ir-arriba">:arrow_up:</a></p>
 
 <!-- AGRADECIMIENTO -->
   <a name="agradecimiento"></a>
@@ -346,4 +343,4 @@ Company deleted!
   ¡Que tengas un lindo día!
   
   Nana ✨
-  <p align="right">(<a href="#ir-arriba">Ir arriba</a>)</p>
+  <p align="right"><a href="#ir-arriba">:arrow_up:</a></p>
