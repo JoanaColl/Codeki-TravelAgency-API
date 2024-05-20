@@ -46,8 +46,8 @@ public class FlightServiceImpl implements FlightService {
 
     @Override
     public FlightDto findFlightById(Long flightIid) throws ResourceNotFoundException  {
-        Flight findedFlight = flightRepository.findById(flightIid).orElseThrow(()-> new ResourceNotFoundException("Flight ID not found!"));
-        return flightUtils.flightMapper(findedFlight, getDollarPrice());
+        Flight foundFlight = flightRepository.findById(flightIid).orElseThrow(()-> new ResourceNotFoundException("Flight ID not found!"));
+        return flightUtils.flightMapper(foundFlight, getDollarPrice());
     }
 
     @Override
